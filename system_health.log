@@ -1,0 +1,42 @@
+System Health Check Report
+Date: Wed Jan  7 21:33:51 EST 2026
+------------------------
+CPU Usage:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           5.7Gi       448Mi       5.3Gi       3.5Mi       141Mi       5.3Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         107G   39G   68G  37% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.3G  955G   1% /
+none            2.9G   76K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             107G   39G   68G  37% /mnt/c
+D:\             932G  132M  932G   1% /mnt/d
+tmpfs           588M   20K  588M   1% /run/user/1000
+
+System Uptime:
+ 21:33:51 up 29 min,  1 user,  load average: 0.01, 0.00, 0.00
+
+Network Connectivity Test:
+PING google.com (192.178.192.113) 56(84) bytes of data.
+64 bytes from lcyyzn-in-f113.1e100.net (192.178.192.113): icmp_seq=1 ttl=106 time=39.7 ms
+64 bytes from lcyyzn-in-f113.1e100.net (192.178.192.113): icmp_seq=2 ttl=106 time=50.2 ms
+64 bytes from lcyyzn-in-f113.1e100.net (192.178.192.113): icmp_seq=3 ttl=106 time=47.4 ms
+
+--- google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 39.726/45.762/50.192/4.421 ms
+
